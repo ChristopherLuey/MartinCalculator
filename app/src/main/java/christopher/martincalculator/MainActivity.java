@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < 4; i++) {
             String[] operatorStrings = new String[]{"+", "-", "x", "/"};
             int finalI = i;
-
+            
             operators[i].setOnClickListener(v -> {
                 if (!builder.isEmpty() && !Arrays.asList(operation).contains(true)) {
                     operation[finalI] = true;
